@@ -1,0 +1,36 @@
+.wp-block-button.is-style-button-hover-accent-lite-bgcolor
+  a.wp-block-button__link.wp-element-button:hover {
+  background-color: var(--wp--preset--color--accent-lite) !important;
+  opacity: 1;
+  color: #ffffff !important;
+}
+
+.wp-block-image.is-style-electionsfse-invertimage img {
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+.wp-block-quote.is-style-electionsfse-block-quote {
+  border: none !important;
+}
+.wp-block-quote.is-style-electionsfse-block-quote::before {
+  content: "\201C";
+  display: block;
+  font-size: 80px;
+  left: -35px;
+  top: -10px;
+  position: relative;
+  height: 0;
+}
+.wp-block-quote.is-style-electionsfse-block-quote::after {
+  content: "\201D";
+  display: block;
+  font-size: 80px;
+  float: right;
+  top: -20px;
+  position: relative;
+  height: 0;
+}
+.is-style-electionsfse-no-decoration {
+  list-style-type: none;
+}
+
