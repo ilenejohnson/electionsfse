@@ -1,7 +1,7 @@
 === Elections FSE ===
 Contributors: Ilene Johnson
 Requires at least: 6.0
-Tested up to: 6.3.2
+Tested up to: 6.4.2
 Requires PHP: 5.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
